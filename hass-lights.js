@@ -4,7 +4,7 @@ function run(runRequest) {
     // For logging stuff
     let logger = runRequest.modules.logger;
     
-    // The hostname (IP address or URL) of your Home Assistant istance
+    // The hostname (IP address or URL) of your Home Assistant instance
     let hostname = runRequest.parameters.hostname
     
     // The long-lived access token generated through Home Assistant (on your profile page)
